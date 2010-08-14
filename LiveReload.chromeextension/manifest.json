@@ -1,0 +1,20 @@
+{
+   "background_page": "background.html",
+   "browser_action": {
+      "default_icon": "icon19.png",
+      "default_title": "Enable LiveReload"
+   },
+   "content_scripts": [ {
+      "js": [ "LiveReload-content.js" ],
+      "matches": [ "http://*/*" ]
+   } ],
+   "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDrOgODVyBNTQqWv0iT9lwzEgpXFyNeUC6/JAjfKV4Zg4PAIhKOAYUQQcE1UI+s1cxF4GgZpfg9ybAlbu1MOWoi7HBuFAvA/BIJ8YTfM6OISVptHL2AsAbxmKP59iGDgJohgt2wuibclPZjoKTyLNm1x3C4VRErSs9prJGPsyM3DwIDAQAB",
+   "name": "LiveReload",
+   "permissions": [ "tabs", "http://*/*" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.4"
+}
